@@ -225,7 +225,7 @@ app.layout = html.Div([
                 #figure=pie_vendor,
                 )
             ],
-            width=4,
+            width=6,
             style={
             }), 
             dbc.Col([
@@ -251,7 +251,7 @@ app.layout = html.Div([
                 #     figure=fig,)
                 # ]),
             ],
-            width=8,
+            width=6,
             ), 
         ],className="h-100"),
 
