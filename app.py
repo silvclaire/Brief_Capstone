@@ -302,6 +302,11 @@ def update_plotbar(select):
     template='plotly_white',
     title='Total Vendor Per Region',
     hole=0.4,
+    labels = {
+    'provinsi': 'Province',
+    'kota' : 'City',
+    'jumlah vendor' : 'Total Vendor',
+    },
 ).update_layout(legend=dict(
     yanchor="top",
     y=0.99,
@@ -343,3 +348,4 @@ def update_plotbar(select_ascending):
 # 3. Start the Dash server
 if __name__ == "__main__":
     app.run_server()
+    
